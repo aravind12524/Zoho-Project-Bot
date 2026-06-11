@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="aiBg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+    <linearGradient id="aiGlow" x1="20" y1="18" x2="44" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#E0E7FF" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#aiBg)"/>
+  <circle cx="32" cy="32" r="28" fill="url(#aiGlow)" opacity="0.18"/>
+  <ellipse cx="32" cy="36" rx="14" ry="12" fill="#FFFFFF" opacity="0.95"/>
+  <circle cx="25" cy="33" r="3.2" fill="#4338CA"/>
+  <circle cx="39" cy="33" r="3.2" fill="#4338CA"/>
+  <circle cx="26" cy="32" r="1" fill="#FFFFFF"/>
+  <circle cx="40" cy="32" r="1" fill="#FFFFFF"/>
+  <path d="M26 41c2.5 2.5 9.5 2.5 12 0" stroke="#4338CA" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 10v6M18 16l4 4M46 16l-4 4" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="32" cy="10" r="2.5" fill="#FFFFFF"/>
+</svg>

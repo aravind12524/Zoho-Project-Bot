@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="userBg" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="0.45" stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="24" y1="22" x2="40" y2="42" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDBAC"/>
+      <stop offset="1" stop-color="#F4A460"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="18" y1="12" x2="46" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#userBg)"/>
+  <ellipse cx="32" cy="52" rx="18" ry="14" fill="#2563EB"/>
+  <ellipse cx="32" cy="50" rx="14" ry="10" fill="#3B82F6"/>
+  <ellipse cx="32" cy="34" rx="13" ry="14" fill="url(#skin)"/>
+  <path d="M19 28c2-8 10-12 13-12s11 4 13 12c-4-2-9-3-13-3s-9 1-13 3z" fill="url(#hair)"/>
+  <ellipse cx="27" cy="34" rx="1.8" ry="2.2" fill="#1E293B"/>
+  <ellipse cx="37" cy="34" rx="1.8" ry="2.2" fill="#1E293B"/>
+  <path d="M28 40c1.5 1.8 6.5 1.8 8 0" stroke="#C2410C" stroke-width="1.6" stroke-linecap="round"/>
+  <ellipse cx="24" cy="38" rx="2.5" ry="1.5" fill="#FCA5A5" opacity="0.45"/>
+  <ellipse cx="40" cy="38" rx="2.5" ry="1.5" fill="#FCA5A5" opacity="0.45"/>
+</svg>
